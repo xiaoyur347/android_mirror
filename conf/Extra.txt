@@ -1,0 +1,3 @@
+#Extra
+android_m2repository_r25.zip, extras/android/m2repository, Local Maven repository for Support Libraries
+google_m2repository_r24.zip, extras/google/m2repository, Local Maven repository for Google Libraries
