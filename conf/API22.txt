@@ -1,11 +1,11 @@
 #Tools
-tools_r24.4.1-windows.zip, Android SDK Tools
-platform-tools_r23.1.0-windows.zip, Android SDK Platform-tools
+tools_r24.4.1-windows.zip, tools, Android SDK Tools
+platform-tools_r23.1.0-windows.zip, platform-tools, Android SDK Platform-tools
 
-build-tools_r22.0.1-windows.zip, Android SDK Build-tools
+build-tools_r22.0.1-windows.zip, build-tools/22.0.1, Android SDK Build-tools
 
 #API 22
-android-22_r02.zip, SDK Platform
-samples-22_r06.zip, Samples for SDK
-google_apis-22_r01.zip, Google APIs
-sources-22_r01.zip, Sources for Android SDK
+android-22_r02.zip, platforms/android-22, SDK Platform
+samples-22_r06.zip, samples/android-22, Samples for SDK
+google_apis-22_r01.zip, add-ons/addon-google_apis-google-22, Google APIs
+sources-22_r01.zip, sources/android-22, Sources for Android SDK
