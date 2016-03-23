@@ -13,12 +13,12 @@ download_package()
 {
 	local SRC_FILE=${MIRROR_SITE}/$1
 	local DST_FILE=${SHELLPATH}/repository/$1
-	local DST_DIR=`dirname ${DST_FILE}`
+	local DST_DIR=`dirname "${DST_FILE}"`
 	
-	if [ ! -f ${DST_FILE} ]; then
-		mkdir -p ${DST_DIR}
+	if [ ! -f "${DST_FILE}" ]; then
+		mkdir -p "${DST_DIR}"
 		echo "download ${SRC_FILE}"
-		wget ${SRC_FILE} -O ${DST_FILE}
+		wget ${SRC_FILE} -O "${DST_FILE}"
 	fi
 }
 
